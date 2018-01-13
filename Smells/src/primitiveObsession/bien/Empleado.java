@@ -11,8 +11,11 @@ package primitiveObsession.bien;
  */
 public class Empleado {
     String name;
-    //1 = administrador
-    //2 = secretario
-    //3 = pasante
-    int tipe;
+    String cargo;
+    
+    public Empleado(){
+    }
+    public Empleado(String name){
+        this.name = name;
+    }
 }

@@ -3,18 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package primitiveObsession.bien;
+package switchStatements.bien;
+
 
 /**
  *
  * @author LULANB
  */
-public class Administrador extends Empleado{
-    public Administrador(){
+public class Regular extends Empleado{
+    public Regular(){
         super();
     }
-    public Administrador(String name){
+    public Regular(String name){
         super(name);
-        super.cargo="Administrador";
+        super.cargo="Regular";
     }
 }
